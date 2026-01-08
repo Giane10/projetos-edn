@@ -7,16 +7,16 @@ O programa deve calcular o consumo médio (km/l) e exibir todos os dados da viag
 
 
 #Dados
-distancia_percorrida = 300 #KM
-combustivel_gasto = 25     #litros
+distancia = 300 #KM
+combustivel = 25     #litros
 
 #Cálculo
-consumo_medio  = distancia_percorrida / combustivel_gasto 
+consumo_medio  = distancia / combustivel 
 
 #Resultado
 print("----- Detalhes da Viagem -----")
-print(f"Distância Percorrida: {distancia_percorrida} KM")
-print(f"Combustível Gasto: {combustivel_gasto} Litros")
+print(f"Distância Percorrida: {distancia} KM")
+print(f"Combustível Gasto: {combustivel} Litros")
 print("-" * 30)
 print(f"O consumo médio (KM/L): {consumo_medio:.2f}")
 print("-" * 30)

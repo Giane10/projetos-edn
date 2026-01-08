@@ -12,7 +12,7 @@ nome_produto = "Camiseta"
 preco_original = 50.00
 porcentagem_desconto = 20
 
-valor_desconto = preco_original * (porcentagem_desconto / 100)
+valor_desconto = (porcentagem_desconto / 100) * preco_original
 valor_total = preco_original - valor_desconto
 
 print("-" * 30)
