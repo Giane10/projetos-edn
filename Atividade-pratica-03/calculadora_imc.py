@@ -29,14 +29,14 @@ def calculadora_imc():
                 input("Digite sua altura em metros (ex: 1.75): ").strip())
 
         except ValueError:
-            print("Erro: Por favor, use números e utilize o ponto como separador decimal.")
+            print(
+                "Erro: Por favor, use números e utilize o ponto como separador decimal.")
             continue  # Volta para o início do loop
 
         # Verificação lógica: peso ou altura zero
         if peso <= 0 or altura <= 0:
             print("Erro: Peso e altura devem ser maiores que zero.")
             continue
-
 
         imc = peso / (altura ** 2)
         print(f"\nSeu IMC é: {imc:.2f}")
